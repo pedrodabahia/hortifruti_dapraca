@@ -2,6 +2,11 @@
     padding: none;
     margin: none;
 }
+body{
+    color-scheme: light;
+    background-color: white;
+    color: black;
+}
 @font-face {
     font-family: 'poppins-medium';
     src: url(../fonts/Poppins/Poppins-Medium.ttf);

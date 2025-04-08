@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  color-scheme: light;
+  background-color: white;
+  color: black;
 }
 :root {
   color-scheme: light;

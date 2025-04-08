@@ -15,6 +15,12 @@
     src: url("../fonts/Poppins/Poppins-ExtraBold.ttf");
 }
 
+body{
+    color-scheme: light;
+    background-color: white;
+    color: black;
+}
+
 main{
     font-family: "poppins";
 }
