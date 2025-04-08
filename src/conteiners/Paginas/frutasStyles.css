@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.my-atropos {
+    width: 320px;
+    height: 160px;
+  }
+@font-face {
+    font-family: "sora extra";
+    src: url("../fonts/Sora/static/Sora-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "poppins";
+    src: url("../fonts/Poppins/Poppins-ExtraBold.ttf");
+}
+html,body{
+    overflow-x: hidden;
+    
+}
+main{
+    font-family: "poppins";
+    overflow-x: hidden;
+}
+
+
+.banner{
+    background-size: 100% 100%;
+    padding: 5vw 0vw 10vw 0vw;
+    background-color: RGB(245, 245, 220);
+}
+.banner .titulo img{
+    width: 60vw;
+    margin: 15vw 20vw 5vw 20vw;
+}
+.banner .fruta img{
+    width: 80vw;
+    margin: 5vw 10vw 5vw 10vw;
+}
+.banner .conteudo{
+    text-align: center;
+}
+.banner .conteudo h1{
+    width: 40vw;
+    display: inline-block;
+    color: #6B8E23;
+}
+.banner .conteudo h1#numero{
+    font-size: 25vw;
+    font-family: "sora extra";
+}
+.banner .conteudo h1#titulo{
+    width: 45vw;
+    text-transform: uppercase;
+    font-size: 4.5vw;
+    font-family: "sora extra";
+    margin-left: -6vw;
+    line-height: 6vw;
+    text-align: left;
+    position:relative;
+    top: -4vw;
+}
+.banner .conteudo .lista{
+    text-align: center;
+    margin: 5vw 8vw;
+}
+.banner .conteudo .lista ul{
+    display: inline-block;
+    height: 40vw;
+    width: 90vw;
+    text-align: left;
+}   
+.banner .conteudo .lista ul li{
+    color: white;
+    border:3px solid #6B8E23;
+    width: 80vw;
+    min-height: 7vw;
+    padding:1vw 0vw 3vw 3vw;
+    font-size: 3.9vw;
+    margin-top: 2vw;
+    list-style:none;
+    border-radius: 3vw;
+    background-color: rgba(107, 142, 35, 0.8);
+    box-shadow: 0px 1vw 2vw 0px rgba(255,255,255, 0.5);
+}   
+.banner .conteudo .lista ul li img{
+    width: 7vw;
+    position: relative;
+    top: 1.5vw;
+    left: -1vw;
+    filter: hue-rotate(10deg);
+}
+.banner .conteudo .lista ul li p{
+    margin: 0;
+    display: none;
+    width: 100%;
+    margin: 7vw 0 5vw 0;
+    color: whitesmoke;
+    transition: 2s;
+}
+
+img#bananaDecor,img#folhaDecorSecd,img#folhaDecor{
+    position: absolute;
+    right: 0vw;
+    top: -15vw;
+    height: 25vw;
+}
+img#folhaDecor{
+    top: 0vw;
+    right: 0vw;
+    height:50vw;
+}
+img#folhaDecorSecd{
+    
+    left:0vw;
+    top: -5vw;
+    height:35vw;
+}
+
+.segundoConteudo{
+    text-align: center;
+    background-color: #6B8E23;
+    background-size: 100%;
+    padding: 10vw 0;
+    position: relative;
+}
+.segundoConteudo h1{
+    display: inline-block;
+}
+.segundoConteudo h1#numero{
+    font-size: 30vw;
+    font-family: "sora extra";
+    color: rgb(245, 245, 160);
+}
+.segundoConteudo h1#titulo{
+    text-transform: uppercase;
+    font-size: 5vw;
+    font-family: "sora extra";
+    margin-left:-1vw;
+    line-height: 6vw;
+    text-align: left;
+    width: 43vw;
+    position:relative;
+    top: -3vw;
+    color: white
+}
+.segundoConteudo .receitas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.6vw;
+}
+
+.segundoConteudo .receitas .box {
+    width: 40vw;
+    margin-top: 3vw;
+    color: white;
+    font-size: 1.8vw;
+}
+.segundoConteudo .receitas .box h1{
+    margin: 1vw 0;
+}
+
+.segundoConteudo .receitas #primeiraBox{
+   /* background-image: url(../img/vitamina.webp);*/
+    background-size: 100%;
+    background-position: 0vw 0vw;
+    background-repeat: no-repeat ;
+}
+.segundoConteudo .receitas #segundaBox{
+   /* background-image: url(../img/guacamole.avif);*/
+    background-size: 100%;
+    background-repeat: no-repeat ;
+}
+.segundoConteudo .receitas #terceiraBox{
+   /* background-image: url(../img/creme\ deoce.webp);*/
+    background-size: 100%;
+    background-position: 0vw 0vw;
+    background-repeat: no-repeat ;
+}
+.segundoConteudo .receitas #quartaBox{
+   /* background-image: url(../img/picole.jpg);*/
+    background-size: 100%;
+    background-repeat: no-repeat ;  
+}
+
+
+.segundoConteudo .receitas .box .receitaImage{
+    padding:10vw 0;
+    width: 100%;
+    background-color: rgb(220,220,220);
+}
+.segundoConteudo .receitas .box button{
+    margin-top: -5vw;
+    background-color:white;
+    border: none;
+    border-radius:1vw;
+    width: 25vw;
+    height:7vw;
+    font-size: 2vw;
+    font-weight: 900;
+}
+.segundoConteudo .receitas .box button a{
+    text-decoration: none;
+    color: rgb(107,142,35);
+    font-family: "sora extra";
+    text-transform: uppercase;
+
+}
+
+
+footer{
+    height: 20vw;
+    font-size: 1.1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+footer .logo img{
+    
+    height: 10vw;
+    display: block;
+    margin: 0 auto;
+}
+footer .links{
+    display: block;
+    font-size: 1.27vw;
+    width: 60vw;
+    height: 8vw;
+    color: white;
+    margin: 0vw;
+    margin-bottom: -2vw;
+    text-align: center;
+}
+footer .links ul{
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer .links ul a{
+    color: rgb(125, 24, 21);
+    text-decoration: none;
+    cursor: pointer;
+}
+footer .links ul li img{
+    width: 4vw;
+    margin: 1vw;
+}
+footer .links h2 a{
+    color: #ffb400 ;
+    text-decoration: none;
+    font-size:1.2vw ;
+}
