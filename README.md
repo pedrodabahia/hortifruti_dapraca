@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# 🥑 Hotifruti Da Praça
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto web desenvolvido com **React.js** com o objetivo de melhorar a interação entre o supermercado *Da Praça* e seus clientes, trazendo informação, praticidade e um toque de tecnologia para o dia a dia das compras.
 
-## Available Scripts
+## 🧠 Objetivo
 
-In the project directory, you can run:
+O sistema permite que os clientes acessem **benefícios nutricionais** e **receitas práticas** de cada fruta, legume ou verdura disponível no mercado. A navegação é simples e direta: o cliente escaneia um **QR Code** posicionado na bancada do produto e é direcionado a uma página personalizada com informações específicas.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🌐 Estrutura do Projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Apesar de conter diversas páginas diferentes para os produtos, o projeto utiliza apenas **duas páginas React principais**:
 
-### `npm test`
+- `Home.js` — Página inicial que apresenta os produtos e direciona para suas respectivas páginas.
+- `FrutaPage.js` — Página dinâmica que exibe os dados da fruta com base na **rota** acessada.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🧩 Como funciona
 
-### `npm run build`
+- Os dados de todos os produtos estão armazenados em um **arquivo JSON** com estrutura personalizada.
+- Cada fruta possui:
+  - Um `id` (usado como nome para exibição)
+  - Uma **chave dinâmica** (ex: `abacate`, `abacaxi`, `bananadaterra`) que contém os dados reais
+- As rotas são criadas dinamicamente com base nessa chave.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### 🏡 Página Inicial (`Home.js`)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A Home serve como hub central do projeto, onde os usuários podem visualizar uma lista de frutas e clicar para acessar seus benefícios:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src="./caminho/para/home.png" alt="Página Home" width="400" />
 
-### `npm run eject`
+Cada botão exibe o `id` da fruta (ex: "Abacate") e redireciona para a rota `/produto/abacate`, por exemplo.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### 🍌 Página de Produto (`FrutaPage.js`)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A `FrutaPage.js` usa o nome da rota (ex: `"abacate"`) para acessar os dados correspondentes no JSON e montar dinamicamente:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Cores
+- Títulos
+- Imagens
+- Benefícios
+- Receitas
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src="./caminho/para/fruta.png" alt="Página Produto" width="400" />
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Tecnologias Utilizadas
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **React.js**
+- **React Router DOM**
+- **CSS3**
+- Estrutura de dados via **JSON**
+- Compatível com leitura por **QR Code**
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📲 Aplicação na prática
 
-### Analyzing the Bundle Size
+Cada produto terá um **QR Code impresso** fixado na sua bancada. Ao escanear, o cliente será direcionado diretamente para a página da fruta, onde verá:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- 10 benefícios para a saúde
+- 4 receitas usando aquele ingrediente
 
-### Making a Progressive Web App
+### 🛒 Exemplo:
+- Escaneando o QR de “Abacate” leva a `/produto/abacate`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📁 Organização do JSON
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```json
+{
+  "frutas": [
+    {
+      "id": "Abacate",
+      "abacate": {
+        "estilo": {
+          "backgroundColor": "#A9DFBF"
+        },
+        "title": "Benefícios do Abacate",
+        "beneficios": [ ... ],
+        "receitas": [ ... ]
+      }
+    }
+  ]
+}
