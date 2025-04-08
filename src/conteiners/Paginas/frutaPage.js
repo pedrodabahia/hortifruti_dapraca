@@ -1,6 +1,6 @@
 import "./frutasStyles.css";
 import Data from "../data/data.json";
-import {useEffect, useRef, useState} from "react";
+import {useState} from "react";
 
 
 function Home({fruta,titleReserva}){
@@ -19,10 +19,10 @@ function Home({fruta,titleReserva}){
         <div class="banner" style={{backgroundColor: dados.estilo.background}}>
             <img id="folhaDecor" style={{height: dados.estilo.heightGalha}} src={`${process.env.PUBLIC_URL}/img/img${fruta}/galhaDecor.png`} />
             <div class="titulo">
-                <img style={{width: dados.estilo.widthTitle, marginLeft: dados.estilo.marginLeftTitle}} src={`${process.env.PUBLIC_URL}/img/img${fruta}/titulo.png`} />
+                <img alt="" style={{width: dados.estilo.widthTitle, marginLeft: dados.estilo.marginLeftTitle}} src={`${process.env.PUBLIC_URL}/img/img${fruta}/titulo.png`} />
             </div>
             <div class="fruta">
-                <img style={{width: dados.estilo.widthFrutaCenter, marginLeft: dados.estilo.marginLeftFrutaCenter}} src={`${process.env.PUBLIC_URL}/img/img${fruta}/fruta.png`} />
+                <img alt="" style={{width: dados.estilo.widthFrutaCenter, marginLeft: dados.estilo.marginLeftFrutaCenter}} src={`${process.env.PUBLIC_URL}/img/img${fruta}/fruta.png`} />
             </div>
             <div class="conteudo">
                 <h1 id="numero" style={{color: dados.estilo.cor}}>10</h1>
@@ -30,7 +30,7 @@ function Home({fruta,titleReserva}){
                 <div class="lista">
                     <ul>
             { dados.beneficios.map( mapando => { return(
-                    <li style={{color: dados.estilo.corText,boxShadow: dados.estilo.boxShadow, borderColor: dados.estilo.cor, backgroundColor: dados.estilo.cor+"d9" }} key={mapando.id} onClick={ () => {alttivarElemento(mapando.id)}}><img src={`${process.env.PUBLIC_URL}/img/img${fruta}/icon.png`} /> {mapando.title}
+                    <li style={{color: dados.estilo.corText,boxShadow: dados.estilo.boxShadow, borderColor: dados.estilo.cor, backgroundColor: dados.estilo.cor+"d9" }} key={mapando.id} onClick={ () => {alttivarElemento(mapando.id)}}><img alt="" src={`${process.env.PUBLIC_URL}/img/img${fruta}/icon.png`} /> {mapando.title}
                         <p style={{color: dados.estilo.corText,display: ativo === mapando.id ? "block" : "none"}}>{mapando.corpo}</p>
                     </li>
                     )})}
@@ -43,8 +43,8 @@ function Home({fruta,titleReserva}){
         </div>
         <div class="segundoConteudo" style={{backgroundColor: dados.estilo.cor}}>
         
-            <img id="folhaDecorSecd" style={{height: dados.estilo.heightFolha, top: dados.estilo.top}} src={`${process.env.PUBLIC_URL}/img/img${fruta}/folhaDecor.png`} />
-            <img id="bananaDecor" style={{height: dados.estilo.heightFruta}} src={`${process.env.PUBLIC_URL}/img/img${fruta}/frutaDeco.png`} />
+            <img alt="" id="folhaDecorSecd" style={{height: dados.estilo.heightFolha, top: dados.estilo.top}} src={`${process.env.PUBLIC_URL}/img/img${fruta}/folhaDecor.png`} />
+            <img alt="" id="bananaDecor" style={{height: dados.estilo.heightFruta}} src={`${process.env.PUBLIC_URL}/img/img${fruta}/frutaDeco.png`} />
             <h1 id="numero" style={{color: dados.estilo.corReceitas}}>5</h1>
             <h1 id="titulo" >Receitas com {titleReserva}</h1>
             <div class="receitas">
@@ -64,10 +64,10 @@ function Home({fruta,titleReserva}){
         <div class="logo"><img src="./img/logoVertical.webp" /></div>
         <div class="links">
             <ul class="social">
-                <li><a href="https://www.instagram.com/dapraca.ba/#" class="linksFooter"><img src="./img/insta.webp" /></a></li>
-                <li><a href="https://www.facebook.com/DAPRACA.101" class="linksFooter"><img src="./img/face.webp" /></a></li>
-                <li><a href="https://wa.me/7399525483" class="linksFooter"><img src="./img/wpp.webp" /></a></li>
-                <li><a href="https://www.tiktok.com/@dapracasup" class="linksFooter"><img src="./img/ttk.webp" /></a></li>
+                <li><a href="https://www.instagram.com/dapraca.ba/#" class="linksFooter"><img alt="" src="./img/insta.webp" /></a></li>
+                <li><a href="https://www.facebook.com/DAPRACA.101" class="linksFooter"><img alt="" src="./img/face.webp" /></a></li>
+                <li><a href="https://wa.me/7399525483" class="linksFooter"><img alt="" src="./img/wpp.webp" /></a></li>
+                <li><a href="https://www.tiktok.com/@dapracasup" class="linksFooter"><img alt="" src="./img/ttk.webp" /></a></li>
             </ul>
             <h2><a href="https://www.instagram.com/matospedroo/">Desenvolvido por: @matospedroo</a></h2>
         </div>

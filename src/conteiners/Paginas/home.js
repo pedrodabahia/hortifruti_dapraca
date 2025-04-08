@@ -5,7 +5,7 @@ function Home(){
     return(
         <>
         <div className="logoPrincipal">
-            <img src={`${process.env.PUBLIC_URL}/img/logoVertical.webp`} />
+            <img alt="" src={`${process.env.PUBLIC_URL}/img/logoVertical.webp`} />
         </div>
         <div class="faixaOrange">
             <div class="title">
@@ -14,7 +14,7 @@ function Home(){
                 <h3>Qualidade,frescor e preço baixo</h3>
             </div>
             <div class="image">
-                <img src={`${process.env.PUBLIC_URL}/img/mulher.png`} />
+                <img alt="" src={`${process.env.PUBLIC_URL}/img/mulher.png`} />
             </div>
         </div>
         <div class="beneficios">
@@ -31,7 +31,7 @@ function Home(){
                             <div class="box">
                                 <a href={`/${slug}`}>
                                 <h1>{mapa.id}</h1>
-                                <img src={""}></img>
+                                <img alt="" src={""}></img>
                                 </a>
                             </div>
                         );
