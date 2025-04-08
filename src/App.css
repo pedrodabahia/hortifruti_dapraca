@@ -44,3 +44,15 @@
     transform: rotate(360deg);
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  html, body {
+    background-color: white !important;
+    color: black !important;
+    filter: none !important;
+  }
+
+  img, video {
+    filter: none !important;
+  }
+}
