@@ -760,30 +760,40 @@
             "fruta" : "Batata",
                     "estilo" : {
                         "cor": "#f3cb82",
-                        "background" : "rgb(144, 176, 89)"
+                        "background" : "rgb(144, 176, 89)",
+                        "boxShadow" : "0px 1vw 2vw 0px rgba(170,100,0, 0.5)",
+                        "corReceitas": "rgb(240,240,200)",
+                        "heightGalha" : "75vw",
+                        "heightFolha" : "50vw",
+                        "heightFruta" :  "20vw",
+                        "widthFrutaCenter" : "",
+                        "marginLeftFrutaCenter" : "",
+                        "widthTitle" : "",
+                        "marginLeftTitle" : ""
+
                                 },        
         "receitas": [
             {  
-                "img" : "https://static.itdg.com.br/images/1200-675/582ac23a5c322770bba4001335c3400a/351168-original.jpg",
+                "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ4p3zWPuf83YldCDGZK_dVjSPhIrYufC9NQ&s",
                 "id" : 1,
                 "titulo": "Purê Cremoso",
-                "link": "https://www.minhareceita.com.br/receita/salada-com-presunto-jamon-serrano-e-melao/"
+                "link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Freceitas.globo.com%2Fregionais%2Frpc%2Festudio-c%2Fpure-de-batata-cremoso-facil-de-fazer-g.ghtml&psig=AOvVaw0QoqUnmmcJu_LKRtlpwdtq&ust=1744218657320000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOiN9o33yIwDFQAAAAAdAAAAABAE"
             },
             {  "id" : 2,
-                "img" : "https://static.itdg.com.br/images/1200-675/582ac23a5c322770bba4001335c3400a/351168-original.jpg",
+                "img" : "https://static.itdg.com.br/images/640-440/9167f6c5dc6988521e239fab1269a992/346173-original.jpg",
                 "titulo": "Batata Rústica",
-                "link": "https://www.tudogostoso.com.br/receita/83956-suco-de-melao-com-limao.html"
+                "link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tudogostoso.com.br%2Freceita%2F190348-batata-rustica.html&psig=AOvVaw1uz9x22NpaEy4E0QrfMrYo&ust=1744218782352000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMCkx7z3yIwDFQAAAAAdAAAAABAE"
             },
             {   
                 "id" : 3,
-                "img" : "https://static.itdg.com.br/images/1200-675/582ac23a5c322770bba4001335c3400a/351168-original.jpg",
+                "img" : "https://www.receiteria.com.br/wp-content/uploads/batata-recheada-simples.jpeg",
                 "titulo": "Batata Recheada",
-                "link": "https://www.oitedi.com.br/receitas/smoothie-refrescante-de-banana-e-melao?utm_source=chatgpt.com"
+                "link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.receiteria.com.br%2Freceita%2Fbatata-recheada-simples%2F&psig=AOvVaw34vSBkT3XToIfb01rcoV2p&ust=1744218905810000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiMrvX3yIwDFQAAAAAdAAAAABAE"
             },
             {   "id" : 4,
-            "img" : "https://static.itdg.com.br/images/1200-675/582ac23a5c322770bba4001335c3400a/351168-original.jpg",
+            "img" : "https://static.itdg.com.br/images/1200-630/150ba2d5d2874bed8561dd8edbdc1323/164773-original.jpg",
                 "titulo": "Batata Frita",
-                "link": "https://pt.recetin.com/Sorvete-de-mel%C3%A3o.html?utm_source=chatgpt.com"
+                "link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tudogostoso.com.br%2Freceita%2F18897-batata-frita-sequinha.html&psig=AOvVaw2ocoKsa0Ny5KvxvyZRJXeX&ust=1744218951090000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKip2Ir4yIwDFQAAAAAdAAAAABAJ"
             }
         ],
                     "title": "Benefícios da batata",
@@ -970,13 +980,13 @@
             {   
                 "id" : 3,
                 "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ3JBShsoQ3i-G2mRvteiVLDX805BEqVHfzA&s",
-                "titulo": "Panqueca de Batata doce",
+                "titulo": "Panqueca de Batata",
                 "link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fnutrium.com%2Fp%2Falessandrabrito1575%2Frecipes%2F320873&psig=AOvVaw3oUTH_MDj_bnn8uP8rHtL1&ust=1743875964339000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPDf16z6vowDFQAAAAAdAAAAABAE"
             },
             {   "id" : 4,
-            "img" : "https://s2-receitas.glbimg.com/mNDwhiyvKrV_gLc9CFePB9uEMkA=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2023/n/k/zycKWJSNAOx4wFBGDTEw/escondidinho-de-frango-com-batata-doce-.jpg",
-                "titulo": "Escondidinho de Frango",
-                "link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Freceitas.globo.com%2Freceitas-da-tv%2Fmais-voce%2Fescondidinho-de-frango-com-batata-doce.ghtml&psig=AOvVaw0r1hTUG_67EhC6fmavD94a&ust=1743876022641000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNCwssj6vowDFQAAAAAdAAAAABAE"
+            "img" : "https://static.itdg.com.br/images/360-240/a4510bcda1407a2e2fa4014ff5fb23a9/shutterstock-2213010573.jpg",
+                "titulo": "Escondidinho",
+                "link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Freceitas.globo.com%2Freceitas-da-tv%2Fmais-voce%2Fescondidinho-de-frango-com-batata-doce.ghtml&psig=AOvVaw2PCnE59C7DKuSINduGgVEc&ust=1744219092186000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJiO-M34yIwDFQAAAAAdAAAAABAE"
             }
         ],
                     "title": "Benefícios da batata doce",

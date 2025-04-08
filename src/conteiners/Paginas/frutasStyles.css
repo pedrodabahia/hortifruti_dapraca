@@ -14,13 +14,9 @@
     font-family: "poppins";
     src: url("../fonts/Poppins/Poppins-ExtraBold.ttf");
 }
-html,body{
-    overflow-x: hidden;
-    
-}
+
 main{
     font-family: "poppins";
-    overflow-x: hidden;
 }
 
 
