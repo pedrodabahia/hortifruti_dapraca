@@ -17,7 +17,7 @@ function Home({fruta,titleReserva}){
 <>
 
         <div class="banner" style={{backgroundColor: dados.estilo.background}}>
-            <img id="folhaDecor" style={{height: dados.estilo.heightGalha}} src={`${process.env.PUBLIC_URL}/img/img${fruta}/galhaDecor.png`} />
+            <img alt="" id="folhaDecor" style={{height: dados.estilo.heightGalha}} src={`${process.env.PUBLIC_URL}/img/img${fruta}/galhaDecor.png`} />
             <div class="titulo">
                 <img alt="" style={{width: dados.estilo.widthTitle, marginLeft: dados.estilo.marginLeftTitle}} src={`${process.env.PUBLIC_URL}/img/img${fruta}/titulo.png`} />
             </div>
@@ -61,7 +61,7 @@ function Home({fruta,titleReserva}){
 
     
     <footer>
-        <div class="logo"><img src="./img/logoVertical.webp" /></div>
+        <div class="logo"><img alt="" src="./img/logoVertical.webp" /></div>
         <div class="links">
             <ul class="social">
                 <li><a href="https://www.instagram.com/dapraca.ba/#" class="linksFooter"><img alt="" src="./img/insta.webp" /></a></li>
