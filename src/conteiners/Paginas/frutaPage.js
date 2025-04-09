@@ -97,7 +97,7 @@ function Home({fruta,titleReserva}){
 ) : (
 <>
 <motion.img src="./img/logo.png" alt="logo"
-initial={{opacity: 0, x: 125,y:300}}
+initial={{opacity: 0, x: 150,y:300}}
 animate={{opacity: 1 ,y: 200}}
 transition={{duration: 1,delay: 0.3}}
 style={{width: "25vw"}}
@@ -109,13 +109,13 @@ style={{width: "25vw"}}
 sequence={['',500,'DaPraça',]}
 speed={200}
 cursor={false}
-style={{width: "35vw",fontFamily:'coneria',fontWeight: 700, position: "absolute", left: "30vw",top: "68.5vw",color: "rgb(100,000,10)",fontSize: "7vw"}}
+style={{width: "35vw",fontFamily:'coneria',fontWeight: 700, position: "absolute", left: "40vw",top: "72.5vw",color: "rgb(100,000,10)",fontSize: "7vw"}}
 />
 <TypeAnimation
 sequence={['',1000,'Supermercados',]}
 speed={180}
 cursor={false}
-style={{width: "35vw",fontFamily:'coneria',fontWeight: 700, position: "absolute", left: "40vw",top: "76vw",color: "rgb(100,000,10)",fontSize: "3vw"}}
+style={{width: "35vw",fontFamily:'coneria',fontWeight: 700, position: "absolute", left: "50vw",top: "80vw",color: "rgb(100,000,10)",fontSize: "3vw"}}
 />
 </>
 ) : ("")
