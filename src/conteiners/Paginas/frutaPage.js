@@ -109,13 +109,13 @@ style={{width: "25vw"}}
 sequence={['',500,'DaPraça',]}
 speed={200}
 cursor={false}
-style={{width: "35vw",fontFamily:'coneria',fontWeight: 700, position: "absolute", left: "40vw",top: "72.5vw",color: "rgb(100,000,10)",fontSize: "7vw"}}
+style={{width: "35vw",fontFamily:'coneria',fontWeight: 700, position: "absolute", left: "37vw",top: "76.5vw",color: "rgb(100,000,10)",fontSize: "7vw"}}
 />
 <TypeAnimation
 sequence={['',1000,'Supermercados',]}
 speed={180}
 cursor={false}
-style={{width: "35vw",fontFamily:'coneria',fontWeight: 700, position: "absolute", left: "50vw",top: "80vw",color: "rgb(100,000,10)",fontSize: "3vw"}}
+style={{width: "35vw",fontFamily:'coneria',fontWeight: 700, position: "absolute", left: "50vw",top: "83vw",color: "rgb(100,000,10)",fontSize: "3vw"}}
 />
 </>
 ) : ("")
