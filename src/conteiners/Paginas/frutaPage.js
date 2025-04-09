@@ -1,9 +1,14 @@
 import "./frutasStyles.css";
 import Data from "../data/data.json";
 import {useState} from "react";
-
+import {useEffect} from 'react';
+import {motion} from 'framer-motion';
+import { TypeAnimation } from "react-type-animation";
 
 function Home({fruta,titleReserva}){
+    const [mostrarPagina , setMostrarPagina] = useState(false);
+    const [mostrarTexto, setTexto] = useState(false)
+
     const [ativo, setAtivo] = useState(null);
     const alttivarElemento = (id) =>{
         setAtivo(ativo === id ? null : id);
@@ -11,11 +16,25 @@ function Home({fruta,titleReserva}){
     const frutaData = Data.frutas.find(item => Object.keys(item).includes(fruta));
     const dados = frutaData?.[fruta];
 
+    useEffect(() => {
+        const tempo = setTimeout(() => {
+            setTexto(true);
+        },700)
+        return () => clearTimeout(tempo)
+    })
 
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setMostrarPagina(true);
+        },3300)
+        return () => clearTimeout(timer);
+    }, []);
 
     return(
 <>
-
+        {mostrarPagina ? (<>
+        <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 1}}>
         <div class="banner" style={{backgroundColor: dados.estilo.background}}>
             <img alt="" id="folhaDecor" style={{height: dados.estilo.heightGalha}} src={`${process.env.PUBLIC_URL}/img/img${fruta}/galhaDecor.png`} />
             <div class="titulo">
@@ -32,6 +51,7 @@ function Home({fruta,titleReserva}){
             { dados.beneficios.map( mapando => { return(
                     <li style={{color: dados.estilo.corText,boxShadow: dados.estilo.boxShadow, borderColor: dados.estilo.cor, backgroundColor: dados.estilo.cor+"d9" }} key={mapando.id} onClick={ () => {alttivarElemento(mapando.id)}}><img alt="" src={`${process.env.PUBLIC_URL}/img/img${fruta}/icon.png`} /> {mapando.title}
                         <p style={{color: dados.estilo.corText,display: ativo === mapando.id ? "block" : "none"}}>{mapando.corpo}</p>
+                        <img alt="" style={{transform: ativo === mapando.id ? "rotate(90deg)" : ""}} src={`${process.env.PUBLIC_URL}/img/seta.png`} class="seta" />
                     </li>
                     )})}
                     
@@ -72,6 +92,40 @@ function Home({fruta,titleReserva}){
             <h2><a href="https://www.instagram.com/matospedroo/">Desenvolvido por: @matospedroo</a></h2>
         </div>
     </footer>
+    </motion.div>
+    </>
+) : (
+<>
+<motion.img src="./img/logo.png" alt="logo"
+initial={{opacity: 0, x: 180,y:300}}
+animate={{opacity: 1 ,y: 200}}
+transition={{duration: 1,delay: 0.3}}
+style={{width: "25vw"}}
+/>
+{
+ mostrarTexto ? (   
+<>
+<TypeAnimation
+sequence={['',500,'DaPraça',]}
+speed={200}
+cursor={false}
+style={{width: "35vw",fontFamily:'coneria',fontWeight: 700, position: "absolute", left: "34vw",top: "63.5vw",color: "rgb(100,000,10)",fontSize: "7vw"}}
+/>
+<TypeAnimation
+sequence={['',1000,'Supermercados',]}
+speed={180}
+cursor={false}
+style={{width: "35vw",fontFamily:'coneria',fontWeight: 700, position: "absolute", left: "44vw",top: "71vw",color: "rgb(100,000,10)",fontSize: "3vw"}}
+/>
+</>
+) : ("")
+
+
+}
+</>
+)}
+
+       
 
 </>
     )
