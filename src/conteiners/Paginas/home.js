@@ -29,10 +29,10 @@ function Home(){
                         const slug = Object.keys(mapa).find(Key => Key !== 'id');
                         return(
                             <div class="box">
-                                <a href={`/${slug}`}>
+                                
                                 <h1>{mapa.id}</h1>
-                                <img alt="" src={""}></img>
-                                </a>
+                                <img alt="" style={{width: mapa[slug].estilo.width, marginTop: mapa[slug].estilo.marginTop, marginLeft: mapa[slug].estilo.marginLeft}} src={`${process.env.PUBLIC_URL}/img/img${slug}/cesta_${slug}.png`}></img>
+                                <a href={`/${slug}`}>DESCUBRA</a>
                             </div>
                         );
 

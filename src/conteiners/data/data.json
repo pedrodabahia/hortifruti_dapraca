@@ -13,7 +13,9 @@
                         "heightFolha" : "",
                         "heightFruta" :  "",
                         "widthFrutaCenter" : "",
-                        "widthTitle" : ""
+                        "widthTitle" : "",
+                        "width" : "40vw",
+                        "marginTop" : "6vw"
                     },                    
         "receitas": [
             {  
@@ -106,7 +108,9 @@
                         "heightFolha" : "40vw",
                         "heightFruta" :  "35vw",
                         "widthFrutaCenter" : "",
-                        "widthTitle" : ""
+                        "widthTitle" : "",
+                        "width" : "37vw",
+                        "marginTop" : "2vw"
                     },                
         "receitas": [
             {  
@@ -203,7 +207,8 @@
                         "widthFrutaCenter" : "65vw",
                         "marginLeftFrutaCenter" : "17.5vw",
                         "widthTitle" : "70vw",
-                        "marginLeftTitle" : "15vw"
+                        "marginLeftTitle" : "15vw",
+                        "width" : "40vw"
                                 },            
         "receitas": [
             {  
@@ -298,7 +303,8 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "45vw"
                                 },        
         "receitas": [
             {  
@@ -393,7 +399,8 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "marginTop" : "4vw"
                                 },        
         "receitas": [
             {  
@@ -488,7 +495,9 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "50vw",
+                        "marginTop" : "7vw"
                                 },    
         "receitas": [
             {  
@@ -584,7 +593,9 @@
                 "widthFrutaCenter" : "",
                 "marginLeftFrutaCenter" : "",
                 "widthTitle" : "",
-                "marginLeftTitle" : ""
+                "marginLeftTitle" : "",
+                "width" : "37vw",
+                "marginTop" : "5vw"
 
             },
         "receitas": [
@@ -673,7 +684,9 @@
                 "fruta" : "Banana",
                 "estilo" : {
                         "cor": "#008000",
-                        "background" : "##f7e400"
+                        "background" : "##f7e400",
+                        "width" : "37vw",
+                        "marginTop" : "5vw"
                             },
         "receitas": [
             {  
@@ -769,7 +782,9 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "40vw",
+                        "marginTop" : "10vw"
 
                                 },        
         "receitas": [
@@ -866,7 +881,9 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "45vw",
+                        "marginTop" : "-3vw"
 
                                 },            
         "receitas": [
@@ -963,7 +980,9 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "40vw",
+                        "marginTop" : "5vw"
                                 },        
         "receitas": [
             {  
@@ -1059,7 +1078,9 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "45vw",
+                        "marginTop" : "10vw"
                     },        
         "receitas": [
             {  
@@ -1143,6 +1164,7 @@
         {        
         "id" : "Beterraba",                
         "beterraba":{  
+
             "fruta" : "Beterraba",
                     "estilo" : {
                         "cor": "#d32c58",
@@ -1155,7 +1177,9 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "47vw",
+                        "marginTop" : "8vw"
                                 },        
         "receitas": [
             {  
@@ -1251,7 +1275,9 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "40vw",
+                        "marginTop" : "7vw"
                     },                
         "receitas": [
             {  
@@ -1347,7 +1373,8 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "marginTop" : "3vw"
                                 },    
         "receitas": [
             {  
@@ -1443,7 +1470,8 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "43vw"
                                 },
         "receitas": [
             {  
@@ -1539,7 +1567,8 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "marginTop" : "3vw"
                                 },                    
         "receitas": [
             {  
@@ -1635,7 +1664,9 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "45vw",
+                        "marginTop" : "5vw"
                     },                    
         "receitas": [
             {  
@@ -1731,7 +1762,8 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "75vw",
-                        "marginLeftTitle" : "12.5vw"
+                        "marginLeftTitle" : "12.5vw",
+                        "width" : "45vw"
                                 },                    
         "receitas": [
             {  
@@ -1828,7 +1860,8 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "40vw"
                                 },    
         "receitas": [
             {  
@@ -1926,7 +1959,9 @@
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
                         "marginLeftTitle" : "",
-                        "listaBack" : "rgba(250,150,150,0.8)"
+                        "listaBack" : "rgba(250,150,150,0.8)",
+                        "width" : "45vw",
+                        "marginTop" : "7vw"
                                 },
         "receitas": [
             {  
@@ -2022,7 +2057,9 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "45vw",
+                        "marginTop" : "0.5vw"
                                 },                    
         "receitas": [
             {  
@@ -2118,7 +2155,9 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "marginTop": "0vw"
+
                                 },                    
         "receitas": [
             {  
@@ -2214,7 +2253,8 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "marginTop" : "1vw"
                                 },
         "receitas": [
             {  
@@ -2310,7 +2350,9 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "40vw",
+                        "marginTop" : "10vw"
                                 },            
         "receitas": [
             {  
@@ -2406,7 +2448,9 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "45vw",
+                        "marginTop" : "7vw"
                                 },        
         "receitas": [
             {  
@@ -2493,7 +2537,9 @@
             "fruta" : "Melão",
                     "estilo" : {
                         "cor": "#F0D200",
-                        "background" : "rgba(250,220,100,0.1)"
+                        "background" : "rgba(250,220,100,0.1)",
+                        "width" : "47vw",
+                        "marginTop" : "5vw"
                                 },                    
         "receitas": [
             {  
@@ -2582,7 +2628,8 @@
             "fruta" : "Mexerica Pokan",
                     "estilo" : {
                         "cor": "#FFA500",
-                        "background" : "RGB(245, 235, 210)"
+                        "background" : "RGB(245, 235, 210)",
+                        "marginTop" : "4vw"
                     },                    
         "receitas": [
             {  
@@ -2679,7 +2726,8 @@
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
                         "top": "-60vw",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "45vw"
                                 },                    
         "receitas": [
             {  
@@ -2775,7 +2823,9 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "45vw",
+                        "marginTop" : "6vw"
                                 },
         "receitas": [
             {  
@@ -2871,7 +2921,9 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "45vw",
+                        "marginTop" : "13vw"
                                 },
         "receitas": [
             {  
@@ -2967,7 +3019,8 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "marginTop" : "3vw"
                                 },                    
         "receitas": [
             {  
@@ -3063,7 +3116,10 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "43vw",
+                        "marginTop" : "2vw"
+
                     },                    
         "receitas": [
             {  
@@ -3159,7 +3215,9 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "47vw",
+                        "marginTop" : "5vw"
                                 },                    
         "receitas": [
             {  
@@ -3256,7 +3314,10 @@
                         "widthFrutaCenter" : "",
                         "marginLeftFrutaCenter" : "",
                         "widthTitle" : "",
-                        "marginLeftTitle" : ""
+                        "marginLeftTitle" : "",
+                        "width" : "53vw",
+                        "marginTop" : "3vw",
+                        "marginLeft" : "-16vw"
                                 },        
         "receitas": [
             {  

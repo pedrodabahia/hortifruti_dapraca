@@ -1,8 +1,20 @@
 import { Route, Routes } from "react-router-dom";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Paginas from "./conteiners/Paginas/frutaPage";
 import Home from "./conteiners/Paginas/home";
 
 function MyRotas(){
+
+        const location = useLocation();
+
+        useEffect(() => {
+            if(window.gtag){
+                window.gtag('config', 'G-SY4438R9KV', {
+                    page_path: location.pathname,
+                })
+            }
+        }, [location])
 
     return(
         <Routes>

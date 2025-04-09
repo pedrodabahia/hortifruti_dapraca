@@ -270,3 +270,21 @@ footer .links h2 a{
       filter: none !important;
     }
   }
+
+  @media (min-width: 1024px){
+
+    .banner .titulo img{
+        width: 22vw;
+        margin: 0vw 40vw;
+    }
+    .banner .fruta img{
+        width: 40vw;
+        margin: 5vw 30vw 5vw 30vw;
+    }
+    img#folhaDecor{
+        top: 0vw;
+        right: 0vw;
+        height: 40vw !important; 
+    }
+
+  }

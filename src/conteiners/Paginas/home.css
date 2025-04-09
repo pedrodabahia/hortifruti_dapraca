@@ -6,6 +6,7 @@ body{
     color-scheme: light;
     background-color: white;
     color: black;
+    overflow-x: hidden;
 }
 @font-face {
     font-family: 'poppins-medium';
@@ -83,19 +84,37 @@ body{
     justify-content: center;
 }
 .boxers .box{
-    font-size: 2vw;
-    margin: 1vw;
+    font-size: 3.1vw;
+    line-height: 5.5vw;
+    margin: 4vw 1vw;
     background-color: #fa952a;
     color: #ffffff;
     width: 45vw;
+    height: 50vw;
     text-transform: uppercase;
     padding: 3.5vw 0 2vw 0;
     text-align: center;
     border-radius: 2vw;
+    box-shadow: 0 0.3vw 0.5vw rgba(100,100,100,0.7);
+    position: relative;
 }
+.boxers .box img{
+    width: 35vw;
+    float:initial;
+}
+
 .boxers .box a{
     text-decoration: none;
     color: white;
+    background-color: #839431;
+    padding: 3vw 5vw;
+    border-radius: 2vw;
+    font-size: 4.5vw;
+    font-weight: 700;
+    position: absolute;
+    bottom: -3vw;
+    left: 6vw;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -108,4 +127,59 @@ body{
     img, video {
       filter: none !important;
     }
+  }
+
+  @media (min-width: 1024px) { 
+    /* Layout de desktop */
+    .logoPrincipal{
+        width: 25vw;
+        margin: 4vw 37.5vw
+    }
+    .faixaOrange{
+        background-color: #fa952a;
+        width: 80vw;
+        height: 15vw;
+    }
+    .faixaOrange .image{
+        position: absolute;
+        width: 27vw;
+        top: 0.5vw;
+    }
+    .faixaOrange .title{
+        text-align: center;
+        width: 70vw;
+        padding-top: 1vw;
+        margin-left: 15vw;
+    }
+    .faixaOrange .title h2{ font-size: 3vw;line-height: 5vw;}
+    .faixaOrange .title h1{ font-size: 6vw; line-height: 2.5vw;}
+    .faixaOrange .title h3{ font-size: 2vw; line-height: 6.5vw;}
+    
+    /*button verde com texto de benefícios */
+
+     .beneficios .title h1{
+        padding: 0.5vw 1.5vw 1vw 1.5vw;
+        width: 35%;
+        font-size: 3vw;
+        margin: 5vw auto 1vw auto;
+        border-radius: 2vw;
+    }
+    .beneficios .title p{
+        width: 40%;
+        font-size: 1.4vw;
+    
+    }
+    .boxers .box{
+        font-size: 1vw;
+        margin: 1vw;
+        background-color: #fa952a;
+        color: #ffffff;
+        width: 40vw;
+        text-transform: uppercase;
+        padding: 1.5vw 0 0.5vw 0;
+        text-align: center;
+        border-radius: 1vw;
+
+    }
+
   }
