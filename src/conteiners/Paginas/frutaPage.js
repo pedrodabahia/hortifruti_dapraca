@@ -115,7 +115,7 @@ style={{width: "35vw",fontFamily:'coneria',fontWeight: 700, position: "absolute"
 sequence={['',1000,'Supermercados',]}
 speed={180}
 cursor={false}
-style={{width: "35vw",fontFamily:'coneria',fontWeight: 700, position: "absolute", left: "50vw",top: "83vw",color: "rgb(100,000,10)",fontSize: "3vw"}}
+style={{width: "35vw",fontFamily:'coneria',fontWeight: 700, position: "absolute", left: "47vw",top: "83vw",color: "rgb(100,000,10)",fontSize: "3vw"}}
 />
 </>
 ) : ("")
