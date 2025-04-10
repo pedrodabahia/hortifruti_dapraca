@@ -13,7 +13,7 @@
                     "widthFrutaCenter": "",
                     "widthTitle": "",
                     "width": "40vw",
-                    "marginTop": "6vw"
+                    "marginTop": "-4vw"
                 },
                 "receitas": [
                     {
@@ -3373,7 +3373,7 @@
                     "marginLeftTitle": "",
                     "width": "53vw",
                     "marginTop": "3vw",
-                    "marginLeft": "-16vw"
+                    "marginLeft": "-4vw"
                 },
                 "receitas": [
                     {

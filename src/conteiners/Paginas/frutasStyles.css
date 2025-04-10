@@ -224,6 +224,8 @@ img#folhaDecorSecd{
 
 .segundoConteudo .receitas .box .receitaImage{
     padding:10vw 0;
+    box-shadow: 0 0 2vw rgba(0,0,0,0.5);
+    border-radius: 1vw;
     width: 100%;
     background-color: rgb(220,220,220);
 }
@@ -282,6 +284,9 @@ footer .links ul a{
     text-decoration: none;
     cursor: pointer;
 }
+footer .links ul li{
+    list-style: none;
+}
 footer .links ul li img{
     width: 4vw;
     margin: 1vw;
@@ -311,8 +316,8 @@ footer .links h2 a{
         margin: 0vw 40vw;
     }
     .banner .fruta img{
-        width: 40vw;
-        margin: 5vw 30vw 5vw 30vw;
+        width: 30vw;
+        margin: 5vw 35vw 5vw 35vw;
     }
     img#folhaDecor{
         top: 0vw;
@@ -320,4 +325,137 @@ footer .links h2 a{
         height: 40vw !important; 
     }
 
+    .banner .conteudo h1{
+        width: 40vw;
+        display: inline-block;
+        color: #6B8E23;
+    }
+    .banner .conteudo h1#numero{
+        font-size: 13vw;
+    }
+    .banner .conteudo h1#titulo{
+        width: 28vw;
+        font-size: 3.5vw;
+        margin-left: -12.5vw;
+        line-height: 3vw;
+        top: -1vw;
+    }
+    .banner .conteudo .lista{
+        text-align: center;
+        margin: 5vw 22.5vw;
+    }
+    .banner .conteudo .lista ul{
+        display: inline-block;
+        height: 40vw;
+        width: 90vw;
+        text-align: left;
+    }   
+    .banner .conteudo .lista ul li{
+        border:3px solid #6B8E23;
+        border-radius: 1.5vw;
+        width: 55vw;
+        min-height: 3vw;
+        padding:0.5vw 0vw 2vw 2vw;
+        font-size: 2vw;
+        font-weight: 700;
+        margin-top: 1vw;
+    }   
+    .banner .conteudo .lista ul li img{
+        width: 3vw;
+        position: relative;
+        top: 1vw;
+        left: -1vw;
+        filter: hue-rotate(10deg);
+    }
+    .banner .conteudo .lista ul li .seta{
+        width: 2vw;
+        margin-top: 1vw;
+        transition: 0.5s;
+        position: absolute;
+        left: 52vw;
+        top: 1vw;
+        
+    }
+    
+img#folhaDecorSecd{
+    top: 10vw;
+    height:25vw;
+}
+img#bananaDecor{
+    height:20vw;
+}
+
+.segundoConteudo{
+    padding: 5vw 0;
+    position: relative;
+}
+.segundoConteudo h1#numero{
+    font-size: 20vw;
+    margin-left: 10vw;
+}
+.segundoConteudo h1#titulo{
+    font-size: 4vw;
+    margin-left:0;
+    line-height: 4vw;
+    position:relative;
+    top: -2vw;
+    color: white
+}
+.segundoConteudo .receitas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.6vw;
+}
+
+.segundoConteudo .receitas .box {
+    width: 42vw;
+    margin: 3vw 1vw;
+    margin-top: 3vw;
+    color: white;
+    font-size: 1.5vw;
+}
+.segundoConteudo .receitas .box h1{
+    margin: 1vw 0;
+}
+
+footer{
+    height: 2vw;
+}
+footer .logo img{
+    height: 4vw;
+    margin-top: 2vw;
+}
+footer .links{
+    display: block;
+    font-size: 1.27vw;
+    width: 60vw;
+    height: 0.1vw;
+    color: white;
+    margin: 0vw;
+    margin-bottom: -2vw;
+    text-align: center;
+}
+footer .links ul{
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer .links ul a{
+    color: rgb(125, 24, 21);
+    text-decoration: none;
+    cursor: pointer;
+}
+footer .links ul li img{
+    width: 2vw;
+    margin: 0.2vw 0.2vw -1vw 0.2vw;
+}
+footer .links h2 a{
+    color: #ffb400 ;
+    text-decoration: none;
+    font-size:0.8vw ;
+}
   }
