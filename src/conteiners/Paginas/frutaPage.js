@@ -3,7 +3,6 @@ import Data from "../data/data.json";
 import {useState} from "react";
 import {useEffect} from 'react';
 import {motion} from 'framer-motion';
-import { TypeAnimation } from "react-type-animation";
 
 function Home({fruta,titleReserva}){
     const [mostrarPagina , setMostrarPagina] = useState(false);
@@ -27,7 +26,7 @@ function Home({fruta,titleReserva}){
     useEffect(() => {
         const timer = setTimeout(() => {
             setMostrarPagina(true);
-        },2200)
+        },3300)
         return () => clearTimeout(timer);
     }, []);
 
