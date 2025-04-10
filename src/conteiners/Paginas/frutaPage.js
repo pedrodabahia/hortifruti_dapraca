@@ -79,11 +79,7 @@ function Home({fruta,titleReserva}){
             )})}    
             </div>
         </div>
-        <video autoplay muted loop id="loader-video">
-  <source src={`${process.env.PUBLIC_URL}/video/loader.mp4`} type="video/mp4" />
-</video>
-
-    
+        
     <footer>
         <div class="logo"><img alt="" src="./img/logoVertical.webp" /></div>
         <div class="links">
