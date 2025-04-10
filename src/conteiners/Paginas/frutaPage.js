@@ -26,9 +26,11 @@ function Home({fruta,titleReserva}){
     useEffect(() => {
         const timer = setTimeout(() => {
             setMostrarPagina(true);
-        },3300)
+        },2000)
         return () => clearTimeout(timer);
     }, []);
+
+
 
     return(
 <>
@@ -72,7 +74,7 @@ function Home({fruta,titleReserva}){
                 <div class="box" >
                     <h1>{receita.titulo}</h1>
                     <div class="receitaImage" style={{backgroundImage: `url(${receita.img})`}} id="primeiraBox"></div>
-                    <button type="button"><a style={{color: dados.estilo.cor}} href={receita.link}>clique e confira</a></button>
+                    <button type="button" target="_blank" rel="noopener noreferrer" style={{color: dados.estilo.cor}} onClick={() => {window.location.assign(receita.link) }}>clique e confira</button>
                 </div>                                        
             )})}    
             </div>

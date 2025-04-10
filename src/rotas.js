@@ -21,7 +21,7 @@ function MyRotas(){
             <Route path="/" element={<Home />}/>
             <Route path="/abacate" element={<Paginas titleReserva={"Abacate"} fruta={"abacate"} />} />
             <Route path="/abacaxi" element={<Paginas titleReserva={"Abacaxi"} fruta={"abacaxi"} />} />
-            <Route path="/aboboraItaliana" element={<Paginas titleReserva={"Abobora"} fruta={"abobora"} />} />
+            <Route path="/abobora" element={<Paginas titleReserva={"Abobora"} fruta={"abobora"} />} />
             <Route path="/aipim" element={<Paginas titleReserva={"Aipim"} fruta={"aipim"} />} />
             <Route path="/alho" element={<Paginas titleReserva={"Alho"} fruta={"alho"} />} />
             <Route path="/ameixa" element={<Paginas titleReserva={"Ameixa"} fruta={"ameixa"} />} />
