@@ -19,7 +19,7 @@ function Home({fruta,titleReserva}){
     useEffect(() => {
         const tempo = setTimeout(() => {
             setTexto(true);
-        },700)
+        },700  )
         return () => clearTimeout(tempo)
     })
 
@@ -27,7 +27,7 @@ function Home({fruta,titleReserva}){
     useEffect(() => {
         const timer = setTimeout(() => {
             setMostrarPagina(true);
-        },3300)
+        },2200)
         return () => clearTimeout(timer);
     }, []);
 
@@ -78,6 +78,9 @@ function Home({fruta,titleReserva}){
             )})}    
             </div>
         </div>
+        <video autoplay muted loop id="loader-video">
+  <source src={`${process.env.PUBLIC_URL}/video/loader.mp4`} type="video/mp4" />
+</video>
 
     
     <footer>
@@ -96,32 +99,14 @@ function Home({fruta,titleReserva}){
     </>
 ) : (
 <>
-<motion.img src="./img/logo.png" alt="logo"
-initial={{opacity: 0, x: 180,y:300}}
-animate={{opacity: 1 ,y: 200}}
-transition={{duration: 1,delay: 0.3}}
-style={{width: "25vw"}}
-/>
-{
- mostrarTexto ? (   
+
 <>
-<TypeAnimation
-sequence={['',500,'DaPraça',]}
-speed={200}
-cursor={false}
-style={{width: "35vw",fontFamily:'coneria',fontWeight: 700, position: "absolute", left: "34vw",top: "63.5vw",color: "rgb(100,000,10)",fontSize: "7vw"}}
-/>
-<TypeAnimation
-sequence={['',1000,'Supermercados',]}
-speed={180}
-cursor={false}
-style={{width: "35vw",fontFamily:'coneria',fontWeight: 700, position: "absolute", left: "44vw",top: "71vw",color: "rgb(100,000,10)",fontSize: "3vw"}}
-/>
+    <video autoPlay muted loop className={`loader ${mostrarTexto ? 'aparece' : ""}`}>
+        <source src={`${process.env.PUBLIC_URL}/video/loader.mp4`} type="video/mp4"/>
+        Seu navegador não suporta vídeos.
+    </video>
 </>
-) : ("")
 
-
-}
 </>
 )}
 

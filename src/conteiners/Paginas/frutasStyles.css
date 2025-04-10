@@ -19,9 +19,27 @@
     src: url("../fonts/coneria_script/Demo_ConeriaScript.ttf");
 }
 
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 236, 236);  /* Fundo branco semi-transparente */
+    z-index: 9999;  /* Garante que o loader esteja acima de todos os outros elementos */
+    opacity: 0;
+    transition: opacity 1s ease;  /* Animação suave para desaparecer */
+  }
+  
+  .aparece {
+    opacity: 1;  /* Esconde o loader suavemente */
+  }
+  
 body{
     color-scheme: light;
-    background-color: white;
     color: black;
 }
 
