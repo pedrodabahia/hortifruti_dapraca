@@ -307,6 +307,7 @@
                     "marginLeftFrutaCenter": "",
                     "widthTitle": "",
                     "marginLeftTitle": "",
+                    "marginTop": "-9vw",
                     "width": "45vw"
                 },
                 "receitas": [
@@ -405,7 +406,7 @@
                     "marginLeftFrutaCenter": "",
                     "widthTitle": "",
                     "marginLeftTitle": "",
-                    "marginTop": "4vw"
+                    "marginTop": "-6vw"
                 },
                 "receitas": [
                     {
@@ -695,7 +696,7 @@
                     "cor": "#008000",
                     "background": "##f7e400",
                     "width": "37vw",
-                    "marginTop": "5vw"
+                    "marginTop": "2vw"
                 },
                 "receitas": [
                     {
@@ -895,7 +896,7 @@
                     "widthTitle": "",
                     "marginLeftTitle": "",
                     "width": "45vw",
-                    "marginTop": "-3vw"
+                    "marginTop": "-15vw"
                 },
                 "receitas": [
                     {
@@ -1791,7 +1792,8 @@
                     "marginLeftFrutaCenter": "",
                     "widthTitle": "75vw",
                     "marginLeftTitle": "12.5vw",
-                    "width": "45vw"
+                    "width": "45vw",
+                    "marginTop" : "-10vw"
                 },
                 "receitas": [
                     {
@@ -1891,7 +1893,8 @@
                     "marginLeftFrutaCenter": "",
                     "widthTitle": "",
                     "marginLeftTitle": "",
-                    "width": "40vw"
+                    "width": "40vw",
+                    "marginTop" : "2vw"
                 },
                 "receitas": [
                     {
@@ -2093,7 +2096,7 @@
                     "widthTitle": "",
                     "marginLeftTitle": "",
                     "width": "45vw",
-                    "marginTop": "0.5vw"
+                    "marginTop": "-10vw"
                 },
                 "receitas": [
                     {
@@ -2771,6 +2774,7 @@
                     "marginLeftFrutaCenter": "",
                     "widthTitle": "",
                     "top": "10vw",
+                    "marginTop" : "-10vw",
                     "marginLeftTitle": "",
                     "width": "45vw"
                 },
