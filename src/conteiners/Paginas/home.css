@@ -23,7 +23,8 @@ body{
 
 .logoPrincipal{
     width: 40vw;
-    margin: 7vw 30vw
+    margin: 0vw 30vw 7vw 30vw;
+    padding-top: 7vw;
 }
 .logoPrincipal img{
     width: 100%;
@@ -133,7 +134,8 @@ body{
     /* Layout de desktop */
     .logoPrincipal{
         width: 25vw;
-        margin: 4vw 37.5vw
+        margin: 0vw 37.5vw 4vw 37.5vw;
+        padding-top: 4vw;
     }
     .faixaOrange{
         background-color: #fa952a;
